@@ -6,10 +6,13 @@
     <lang="en">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+
       <script src="https://use.fontawesome.com/70a71c0c44.js"></script>
 
       <!-- bootstrap start -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/custom.css" rel="stylesheet" type="text/css" >
 
       <!-- jQuery library -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -19,20 +22,16 @@
 
       <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
+
+
       <!-- font awesome code
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
       -->
     <title>Sang Kim // Web Developer</title>
 
     <style>
-    body {
-      padding-top: 50px;
-      color: #666;
-      }
-    h1, h2, h3, h4, h5, h6, .navbar-brand, #name {
-      font-family: Lobster, serif;
-      color: #446;
-      }
+
+
     </style>
 
   </head>
@@ -64,65 +63,59 @@
     </div>
     <!-- container start -->
     <div class="container">
-      <div class="about text-center">
-        <h3><i id="about" class="fa fa-user-o fa-4x" aria-hidden="true"></i><p>About Me</h3>
-        <p>I love working backwards. Discovering how the insides work help me understand the outside. I spend most of my days finding the beauty in things, only to tear it apart to rebuild it again. I believe design is integral in the advancing world to communicate ideas efficiently. Good design reduces effort so our brains can focus on the main function behind it. Design allows a bridge to stay upright, so anyone can cross that river. I believe in iteration. <hr>
-      </div>
-      <!-- portfolio start -->
-      <div class="row text-justify">
+
+
+          <div class="card-mockup text-center">
+            <h3><i id="about" class="fa fa-user-o fa-4x" aria-hidden="true"></i><p>About Me</h3>
+              <p class="aboutBox">I love working backwards. Discovering how the insides work help me understand the outside. I spend most of my days finding the beauty in things, only to tear it apart to rebuild it again. I believe design is integral in the advancing world to communicate ideas efficiently. Good design reduces effort so our brains can focus on the main function behind it. Design allows a bridge to stay upright, so anyone can cross that river. I believe in iteration. <hr>
+          </div>
+
+
+
+
+      <!-- projects start -->
+      <div class="card-mockup row text-justify">
         <div class="col-sm-6">
           <h3 id="portfolio" class="text-center"><i class="fa fa-handshake-o fa-4x" aria-hidden="true"></i><p>Projects</h3>
           <p>I love wearing hats, all kinds of hats. While not actively working for a client, I continue my quest to discover every tool available to help realize concepts. Most of my work is available on Github! You can find the videogame I've been trying to finish since I was 16 too, which is funny.
         </div>
-        <!-- portfolio end -->
-
+        <!-- projects end -->
         <div class="col-sm-6">
           <h3 class="text-center"><i class="fa fa-cogs fa-4x" aria-hidden="true"></i><p>Skills</h3>
-          <p>Despite having my hands in most technologies, my strengths come in my experience in Front-End Development. That includes being efficient in HTML5, CSS3 and JavaScript. From playing with code since my adolescence, I've been able to dedicate my time now to forward my career and develop independantly.
+          <p>Despite having my hands in most technologies, my strengths come in my experience in Front-End Development. That includes being efficient in HTML5, CSS3 and JavaScript. From playing with code since my adolescence, I've been able to dedicate my time now to forward my career and develop independantly.<hr>
         </div>
       </div>
-      <hr>
 
-      <div class="text-center">
+      <!-- portfolio start -->
+      <div class="card-mockup text-center">
         <h3><i class="fa fa-folder-open-o fa-5x" aria-hidden="true"></i><p>Portfolio<p></h3>I've had the luxury of meeting people of all kinds which reflects in my varied portfolio. From websites to mobile applications, I'm always excited to try something exciting and new. Send me an email for more examples.
-        <p>
-      </div><hr>
+        <p><hr>
+      </div>
+      <!-- portfolio end -->
 
+      <div class="card-mockup text-center">
+        <!-- contact start -->
+        <h3 id="contact" class="text-center"><i text-center class="fa fa-address-card-o fa-5x" aria-hidden="true"></i><p>Contact</h3><p>Hey! Send me an email. Tweet at me. Follow my instagram to see how much I love mechanical keyboards and horology. Check out my photography. I love meeting new people. If you need help on a project, I'd love to talk about it.<p><p><hr>
 
-      <div class="text-center">
-
-        <h3 id="contact" class="text-center"><i text-center class="fa fa-address-card-o fa-5x" aria-hidden="true"></i><p>Contact</h3><p>Hey! Send me an email. Tweet at me. Follow my instagram to see how much I love mechanical keyboards and horology. Check out my photography. I love meeting new people. If you need help on a project, I'd love to talk about it.<p><p>
-
-          <a href="https://www.linkedin.com/in/sang-kim-665037139/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/somesang"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
-          <a href="https://www.instagram.com/somesang/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
-          <a href="https://github.com/somesang"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-          <a href="http://codepen.io/somesang/"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/sang-kim-665037139/"><i class="contact-links fa fa-linkedin-square fa-3x" aria-hidden="true">  </i></a>
+          <a href="https://twitter.com/somesang">  <i class="contact-links fa fa-twitter fa-3x" aria-hidden="true">  </i></a>
+          <a href="https://www.instagram.com/somesang/">  <i class="contact-links fa fa-instagram fa-3x" aria-hidden="true">  </i></a>
+          <a href="https://github.com/somesang">  <i class="contact-links fa fa-github fa-3x" aria-hidden="true">  </i></a>
+          <a href="http://codepen.io/somesang/">  <i class="contact-links fa fa-codepen fa-3x" aria-hidden="true">  </i></a>
 
 
           <div class="col-lg-16"><hr>
           </div>
-
+        </div>
+          <!-- contact ends -->
 
         <div class="footer text-center">
           <small><i class="fa fa-copyright" aria-hidden="true"></i> 2017 Sang Kim</small>
         </div>
+
       </div>
 
-
-
-
-      <!-- links to use
-
-
-
-      https://github.com/somesang
-      https://twitter.com/somesang
-      https://www.instagram.com/somesang/
-
-
-      -->
-
+<!-- script to auto-close menu on smaller screens/mobile -->
       <script>
       $('.navbar-collapse ul li a').click(function(){
         $('.navbar-toggle:visible').click();
