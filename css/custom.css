@@ -27,3 +27,6 @@ i.contact-links {
 
   padding: 5px;
 }
+.navbar {
+  box-shadow: 1px 1px 10px grey;
+}
