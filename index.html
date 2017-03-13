@@ -66,8 +66,8 @@
 
 
           <div class="card-mockup text-center">
-            <h3><i id="about" class="fa fa-user-o fa-4x" aria-hidden="true"></i><p>About Me</h3>
-              <p class="aboutBox">I love working backwards. Discovering how the insides work help me understand the outside. I spend most of my days finding the beauty in things, only to tear it apart to rebuild it again. I believe design is integral in the advancing world to communicate ideas efficiently. Good design reduces effort so our brains can focus on the main function behind it. Design allows a bridge to stay upright, so anyone can cross that river. I believe in iteration. <hr>
+            <h3><i id="about" class="fa fa-user-o fa-4x" aria-hidden="true"></i><p>About Me</h3><div id="div1">
+              <p class="aboutBox">I love working backwards. Discovering how the insides work help me understand the outside. I spend most of my days finding the beauty in things, only to tear it apart to rebuild it again. I believe design is integral in the advancing world to communicate ideas efficiently. Good design reduces effort so our brains can focus on the main function behind it. Design allows a bridge to stay upright, so anyone can cross that river. I believe in iteration. <hr></div>
           </div>
 
 
@@ -112,6 +112,7 @@
         <div class="footer text-center">
           <small><i class="fa fa-copyright" aria-hidden="true"></i> 2017 Sang Kim</small>
         </div>
+        <button>Click to fade in boxes</button><br><br>
 
       </div>
 
@@ -120,6 +121,15 @@
       $('.navbar-collapse ul li a').click(function(){
         $('.navbar-toggle:visible').click();
       });
+
+
+      $(document).ready(function(){
+        $("i").click(function(){
+        $("#about-box").fadeIn();
+        $("#div2").fadeIn("slow");
+        $("#div3").fadeIn(3000);
+    });
+});
       </script>
   </body>
 </html>
