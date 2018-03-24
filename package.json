@@ -1,0 +1,27 @@
+{
+  "name": "somesang.github.io",
+  "version": "1.0.0",
+  "description": "somesang.github.io portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somesang/somesang.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Sang Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/somesang/somesang.github.io/issues"
+  },
+  "homepage": "https://github.com/somesang/somesang.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.8.3",
+    "npm-sass": "^2.2.1",
+    "sass": "^1.0.0-rc.1"
+  }
+}
